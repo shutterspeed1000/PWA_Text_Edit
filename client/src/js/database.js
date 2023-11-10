@@ -15,7 +15,6 @@ const initdb = async () =>
 // save to localDB
 
   export const putDb = async (content) => {
-    console.log("PUT to the database");
     const jateDb = await openDB("jate", 1);
     const tx = jateDb.transaction("jate", "readwrite");
     const store = tx.objectStore("jate");
@@ -27,7 +26,6 @@ const initdb = async () =>
 // get all from localDB
 
   export const getDb = async () => {
-    console.log("GET all from the database");
     const jateDb = await openDB("jate", 1);
     const tx = jateDb.transaction("jate", "readwrite");
     const store = tx.objectStore("jate");
