@@ -1,3 +1,5 @@
+//code to install app from button
+
 const butInstall = document.getElementById('buttonInstall');
 
 window.addEventListener('beforeinstallprompt', (event) => {

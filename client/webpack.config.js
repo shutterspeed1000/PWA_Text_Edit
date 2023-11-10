@@ -30,7 +30,7 @@ module.exports = () => {
       //   swDest: 'src-sw.js',
       // }),
 
-      // Creates a manifest.json file.
+      // Creates a manifest.json file and allows app to be installed from bar.
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -51,6 +51,9 @@ module.exports = () => {
       }),
     ],
 
+
+    // build info
+    
     module: {
       // CSS loaders
       rules: [
