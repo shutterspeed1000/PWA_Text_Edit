@@ -54,12 +54,16 @@ Technology used based on class materal:
 * Babble
 * LocalDB
 * Webkit
+* Node
+* NPM
 
 ## LiveSite
 
+https://pwa-named-jate-c692a2cfd7cd.herokuapp.com/
+
 ## Screenshot
 
-https://drive.google.com/file/d/1lB1TSAuBUECPjxmpbEQyR-rim-Ohrr_A/view
+![Screenshot of Website](https://shutterspeed1000.github.io/workfiles/ss-jate.png)
 
 
 ## Credit
