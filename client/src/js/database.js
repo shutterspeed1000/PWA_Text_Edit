@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 // save to localDB
-// saves when editor is now long main window
+// saves when editor is not main window
 // called from editor.js
 
   export const putDb = async (content) => {
