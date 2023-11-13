@@ -35,6 +35,8 @@ const initdb = async () =>
     const store = tx.objectStore("jate");
     const request = store.getAll();
     const result = await request;
+    
+    // check if array is empty
     if(result.length <1)
     {return}
     return result[0].content
