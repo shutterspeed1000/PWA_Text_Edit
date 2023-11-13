@@ -20,12 +20,14 @@ const initdb = async () =>
     const jateDb = await openDB("jate", 1);
     const tx = jateDb.transaction("jate", "readwrite");
     const store = tx.objectStore("jate");
+    // write content to DB
     const request = store.put({ id:1,  content: content });
     const result = await request;
       console.log("saved to editor", result);
   };
   
 // get all from localDB
+// triggered on app load
 
   export const getDb = async () => {
     const jateDb = await openDB("jate", 1);
